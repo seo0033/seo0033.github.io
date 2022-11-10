@@ -1,0 +1,77 @@
+@use './Main.scss';
+
+* {
+    // outline: 1px solid rgb(142, 141, 214);
+}
+
+.Cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    z-index: 1000;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+
+    &.on {
+        height: 100vh;
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .window {
+            border: 3px solid Main.$w_c;
+
+            .xicon::before,
+            .xicon::after {
+                background: Main.$w_c;
+            }
+        }
+
+        >ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: Main.$w_c;
+            padding: 10rem 5rem;
+
+            >li {
+                font-size: 3.5rem;
+                font-weight: 700;
+                background: linear-gradient(transparent 50%, rgba(108, 117, 125, 0.7) 50%, );
+                padding: 0 1rem;
+            }
+
+            .folder {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10rem;
+                text-align: center;
+
+                img {
+                    margin: 0 0 1.5rem 0;
+                }
+
+                p {
+                    color: Main.$s_c;
+                    margin: 0 0 1rem 0;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                }
+
+                h2 {
+                    font-size: 3.5rem;
+                    font-weight: 700;
+                }
+
+            }
+        }
+
+    }
+}
