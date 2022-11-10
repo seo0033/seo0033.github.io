@@ -12,7 +12,7 @@ const profile =
 const portfolio = [
     {
         id: 1, title: "PROJECT01", span: "OCI", brand: "오씨아이", type: "React Web (Main/Subpage)", font: ["Pretendard-Regular"]
-        , color: ["#e41d30", "#394d60", "#ffffff"], skill: "React, Scss", src: process.env.PUBLIC_URL + "/img/screenshot_01.png", link: "https://seo0033.github.io/react_oci/"
+        , color: ["#e41d30", "#394d60", "#ffffff"], skill: "React, Scss", src: process.env.PUBLIC_URL + "/img/screenshot_01.png", link: "https://seo0033.github.io/react_oci"
     },
     {
         id: 2, title: "PROJECT02", span: "DOOSI", brand: "두시", type: "React Web(Main/Subpage)", font: ["'Hahmlet',serif"]
