@@ -129,7 +129,7 @@ const Main = () => {
                                   }
                                 </ul>
                               </dl>
-                              <a href={it.link}>VIEW WEB</a>
+                              <a href={it.link} target="_blank">VIEW WEB</a>
                             </div>
                           </div>
                         </div>
