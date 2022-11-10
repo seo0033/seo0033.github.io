@@ -12,11 +12,11 @@ const profile =
 const portfolio = [
     {
         id: 1, title: "PROJECT01", span: "OCI", brand: "오씨아이", type: "React Web (Main/Subpage)", font: ["Pretendard-Regular"]
-        , color: ["#e41d30", "#394d60", "#ffffff"], skill: "React, Scss", src: process.env.PUBLIC_URL + "/img/screenshot_01.png", link: "https://seo0033.github.io/pf_project/react_oci/"
+        , color: ["#e41d30", "#394d60", "#ffffff"], skill: "React, Scss", src: process.env.PUBLIC_URL + "/img/screenshot_01.png", link: "https://seo0033.github.io/react_oci/"
     },
     {
         id: 2, title: "PROJECT02", span: "DOOSI", brand: "두시", type: "React Web(Main/Subpage)", font: ["'Hahmlet',serif"]
-        , color: ["#f9f5ea", "#7d9d91", "#004433", "#00140f"], skill: "React, Scss", src: process.env.PUBLIC_URL + "/img/screenshot_02.png", link: "https://seo0033.github.io/pf_project/react_doosi/"
+        , color: ["#f9f5ea", "#7d9d91", "#004433", "#00140f"], skill: "React, Scss", src: process.env.PUBLIC_URL + "/img/screenshot_02.png", link: "https://seo0033.github.io/react_doosi/"
     },
     {
         id: 3, title: "PROJECT03", span: "ASEOP", brand: "이솝", type: "Responsive Web", font: ["'Hahmlet', serif"]
